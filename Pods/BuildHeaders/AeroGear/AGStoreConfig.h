@@ -1,0 +1,1 @@
+../../AeroGear/AeroGear-iOS/AeroGear-iOS/datamanager/AGStoreConfig.h

@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		454FD4AEF1753303E7C41A4B /* AGTalkFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 454FD35D7E65A4D4D678CA14 /* AGTalkFormViewController.xib */; };
+		454FD8E551094B55F7D3958A /* AGTalkFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 454FD52EEA8050C3CD39F99B /* AGTalkFormViewController.m */; };
+		C7EA3070173D396E00A686A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EA306F173D396E00A686A4 /* UIKit.framework */; };
+		C7EA3072173D396E00A686A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EA3071173D396E00A686A4 /* Foundation.framework */; };
+		C7EA3074173D396E00A686A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EA3073173D396E00A686A4 /* CoreGraphics.framework */; };
+		C7EA3077173D396E00A686A4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C7EA3076173D396E00A686A4 /* Podfile */; };
+		C7EA307D173D396E00A686A4 /* AGPipeService.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EA307C173D396E00A686A4 /* AGPipeService.m */; };
+		C7EA3081173D396E00A686A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7EA307F173D396E00A686A4 /* InfoPlist.strings */; };
+		C7EA3083173D396E00A686A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EA3082173D396E00A686A4 /* main.m */; };
+		C7EA3086173D396E00A686A4 /* AGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EA3085173D396E00A686A4 /* AGAppDelegate.m */; };
+		C7EA3088173D396E00A686A4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C7EA3087173D396E00A686A4 /* Default.png */; };
+		C7EA308A173D396E00A686A4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7EA3089173D396E00A686A4 /* Default@2x.png */; };
+		C7EA308C173D396E00A686A4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7EA308B173D396E00A686A4 /* Default-568h@2x.png */; };
+		C7EA3090173D396F00A686A4 /* AGTalkListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EA308F173D396F00A686A4 /* AGTalkListViewController.m */; };
+		C7EA3092173D396F00A686A4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C7EA3091173D396F00A686A4 /* .gitignore */; };
+		ED576FCF641C4A5CBDDC7933 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 394E02616CEB4D05B53EB115 /* libPods.a */; settings = {}; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		394E02616CEB4D05B53EB115 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPods.a; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		454FD35D7E65A4D4D678CA14 /* AGTalkFormViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AGTalkFormViewController.xib; sourceTree = "<group>"; };
+		454FD52EEA8050C3CD39F99B /* AGTalkFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTalkFormViewController.m; sourceTree = "<group>"; };
+		454FD94935464DA32EB014EF /* AGTalkFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTalkFormViewController.h; sourceTree = "<group>"; };
+		526723E50E064AA0BD2AAB22 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		C7EA306C173D396E00A686A4 /* AGSeflRJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGSeflRJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7EA306F173D396E00A686A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C7EA3071173D396E00A686A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C7EA3073173D396E00A686A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C7EA3076173D396E00A686A4 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		C7EA3079173D396E00A686A4 /* AGSeflRJ-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AGSeflRJ-Prefix.pch"; sourceTree = "<group>"; };
+		C7EA307B173D396E00A686A4 /* AGPipeService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AGPipeService.h; path = Classes/Networking/AGPipeService.h; sourceTree = "<group>"; };
+		C7EA307C173D396E00A686A4 /* AGPipeService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AGPipeService.m; path = Classes/Networking/AGPipeService.m; sourceTree = "<group>"; };
+		C7EA307E173D396E00A686A4 /* AGSeflRJ-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AGSeflRJ-Info.plist"; sourceTree = "<group>"; };
+		C7EA3080173D396E00A686A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7EA3082173D396E00A686A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7EA3084173D396E00A686A4 /* AGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGAppDelegate.h; sourceTree = "<group>"; };
+		C7EA3085173D396E00A686A4 /* AGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGAppDelegate.m; sourceTree = "<group>"; };
+		C7EA3087173D396E00A686A4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C7EA3089173D396E00A686A4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C7EA308B173D396E00A686A4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C7EA308E173D396F00A686A4 /* AGTalkListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AGTalkListViewController.h; path = Classes/Controllers/AGTalkListViewController.h; sourceTree = "<group>"; };
+		C7EA308F173D396F00A686A4 /* AGTalkListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AGTalkListViewController.m; path = Classes/Controllers/AGTalkListViewController.m; sourceTree = "<group>"; };
+		C7EA3091173D396F00A686A4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7EA3069173D396E00A686A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7EA3070173D396E00A686A4 /* UIKit.framework in Frameworks */,
+				C7EA3072173D396E00A686A4 /* Foundation.framework in Frameworks */,
+				C7EA3074173D396E00A686A4 /* CoreGraphics.framework in Frameworks */,
+				ED576FCF641C4A5CBDDC7933 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7EA3063173D396E00A686A4 = {
+			isa = PBXGroup;
+			children = (
+				C7EA3075173D396E00A686A4 /* AGSeflRJ */,
+				C7EA306E173D396E00A686A4 /* Frameworks */,
+				C7EA306D173D396E00A686A4 /* Products */,
+				526723E50E064AA0BD2AAB22 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		C7EA306D173D396E00A686A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7EA306C173D396E00A686A4 /* AGSeflRJ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7EA306E173D396E00A686A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7EA306F173D396E00A686A4 /* UIKit.framework */,
+				C7EA3071173D396E00A686A4 /* Foundation.framework */,
+				C7EA3073173D396E00A686A4 /* CoreGraphics.framework */,
+				394E02616CEB4D05B53EB115 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7EA3075173D396E00A686A4 /* AGSeflRJ */ = {
+			isa = PBXGroup;
+			children = (
+				C7EA3076173D396E00A686A4 /* Podfile */,
+				C7EA3084173D396E00A686A4 /* AGAppDelegate.h */,
+				C7EA3085173D396E00A686A4 /* AGAppDelegate.m */,
+				C7EA3091173D396F00A686A4 /* .gitignore */,
+				C7EA307A173D396E00A686A4 /* Networking */,
+				C7EA308D173D396F00A686A4 /* Controllers */,
+				C7EA3078173D396E00A686A4 /* Supporting Files */,
+			);
+			path = AGSeflRJ;
+			sourceTree = "<group>";
+		};
+		C7EA3078173D396E00A686A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7EA3079173D396E00A686A4 /* AGSeflRJ-Prefix.pch */,
+				C7EA307E173D396E00A686A4 /* AGSeflRJ-Info.plist */,
+				C7EA307F173D396E00A686A4 /* InfoPlist.strings */,
+				C7EA3082173D396E00A686A4 /* main.m */,
+				C7EA3087173D396E00A686A4 /* Default.png */,
+				C7EA3089173D396E00A686A4 /* Default@2x.png */,
+				C7EA308B173D396E00A686A4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7EA307A173D396E00A686A4 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C7EA307B173D396E00A686A4 /* AGPipeService.h */,
+				C7EA307C173D396E00A686A4 /* AGPipeService.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		C7EA308D173D396F00A686A4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C7EA308E173D396F00A686A4 /* AGTalkListViewController.h */,
+				C7EA308F173D396F00A686A4 /* AGTalkListViewController.m */,
+				454FD94935464DA32EB014EF /* AGTalkFormViewController.h */,
+				454FD52EEA8050C3CD39F99B /* AGTalkFormViewController.m */,
+				454FD35D7E65A4D4D678CA14 /* AGTalkFormViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7EA306B173D396E00A686A4 /* AGSeflRJ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7EA3095173D396F00A686A4 /* Build configuration list for PBXNativeTarget "AGSeflRJ" */;
+			buildPhases = (
+				ADD02CB0CB114871B687ABD4 /* Check Pods Manifest.lock */,
+				C7EA3068173D396E00A686A4 /* Sources */,
+				C7EA3069173D396E00A686A4 /* Frameworks */,
+				C7EA306A173D396E00A686A4 /* Resources */,
+				4B8AE4D1D38D4FB48205866F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AGSeflRJ;
+			productName = AGSeflRJ;
+			productReference = C7EA306C173D396E00A686A4 /* AGSeflRJ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7EA3064173D396E00A686A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Daniel Passos";
+			};
+			buildConfigurationList = C7EA3067173D396E00A686A4 /* Build configuration list for PBXProject "AGSeflRJ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C7EA3063173D396E00A686A4;
+			productRefGroup = C7EA306D173D396E00A686A4 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+			);
+			projectRoot = "";
+			targets = (
+				C7EA306B173D396E00A686A4 /* AGSeflRJ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7EA306A173D396E00A686A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7EA3077173D396E00A686A4 /* Podfile in Resources */,
+				C7EA3081173D396E00A686A4 /* InfoPlist.strings in Resources */,
+				C7EA3088173D396E00A686A4 /* Default.png in Resources */,
+				C7EA308A173D396E00A686A4 /* Default@2x.png in Resources */,
+				C7EA308C173D396E00A686A4 /* Default-568h@2x.png in Resources */,
+				C7EA3092173D396F00A686A4 /* .gitignore in Resources */,
+				454FD4AEF1753303E7C41A4B /* AGTalkFormViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B8AE4D1D38D4FB48205866F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 1;
+		};
+		ADD02CB0CB114871B687ABD4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7EA3068173D396E00A686A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7EA307D173D396E00A686A4 /* AGPipeService.m in Sources */,
+				C7EA3083173D396E00A686A4 /* main.m in Sources */,
+				C7EA3086173D396E00A686A4 /* AGAppDelegate.m in Sources */,
+				C7EA3090173D396F00A686A4 /* AGTalkListViewController.m in Sources */,
+				454FD8E551094B55F7D3958A /* AGTalkFormViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7EA307F173D396E00A686A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7EA3080173D396E00A686A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7EA3093173D396F00A686A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7EA3094173D396F00A686A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7EA3096173D396F00A686A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 526723E50E064AA0BD2AAB22 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AGSeflRJ/AGSeflRJ-Prefix.pch";
+				INFOPLIST_FILE = "AGSeflRJ/AGSeflRJ-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C7EA3097173D396F00A686A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 526723E50E064AA0BD2AAB22 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AGSeflRJ/AGSeflRJ-Prefix.pch";
+				INFOPLIST_FILE = "AGSeflRJ/AGSeflRJ-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7EA3067173D396E00A686A4 /* Build configuration list for PBXProject "AGSeflRJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7EA3093173D396F00A686A4 /* Debug */,
+				C7EA3094173D396F00A686A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7EA3095173D396F00A686A4 /* Build configuration list for PBXNativeTarget "AGSeflRJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7EA3096173D396F00A686A4 /* Debug */,
+				C7EA3097173D396F00A686A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7EA3064173D396E00A686A4 /* Project object */;
+}
