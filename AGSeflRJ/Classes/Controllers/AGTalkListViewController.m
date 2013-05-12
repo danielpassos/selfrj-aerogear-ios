@@ -25,6 +25,21 @@
     [super viewDidLoad];
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [[AGPipeService sharedInstance].talkPipe read:^(id responseObject) {
+        _tasks = responseObject;
+
+        // update table with the newly fetched data
+        [self.tableView reloadData];
+
+    }                                         failure:^(NSError *error) {
+        NSLog(@"An error has occured during read! \n%@", error);
+    }];
+
+}
+
+
 - (void)viewDidUnload {
     [super viewDidUnload];
     // Release any retained subviews of the main view.

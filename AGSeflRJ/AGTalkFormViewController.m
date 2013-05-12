@@ -59,7 +59,16 @@
 
 - (void)saveTalk {
 
+    NSMutableDictionary* talkEntityDictionary = [NSMutableDictionary dictionary];
+    [talkEntityDictionary setValue:_name.text forKey:@"title"];
 
+    [[AGPipeService sharedInstance].talkPipe save:talkEntityDictionary
+                                          success:^(id responseObject) {
+                                              [self dismissModalViewControllerAnimated:YES];
+                                          }
+                                          failure:^(NSError *error) {
+                                          }
+    ];
 
 }
 

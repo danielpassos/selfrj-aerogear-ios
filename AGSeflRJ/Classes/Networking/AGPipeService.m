@@ -1,6 +1,6 @@
 #import "AGPipeService.h"
 
-static NSString * const baseURL = @"http://10.10.10.4:3000";
+static NSString * const baseURL = @"http://localhost:3000";
 
 @implementation AGPipeService
 
@@ -19,11 +19,8 @@ static NSString * const baseURL = @"http://10.10.10.4:3000";
 - (id)initWithBaseURL:(NSURL *)url {
      if (self = [super init]) {
         
-        // create the Pipeline object pointing to the remote application
         AGPipeline *pipeline = [AGPipeline pipelineWithBaseURL:[NSURL URLWithString:baseURL]];
         
-        // once pipeline is constructed setup the pipes that will
-        // point to the remote application REST endpoints
         _talkPipe = [pipeline pipe:^(id<AGPipeConfig> config) {
             [config setName:@"talks"];
             [config setEndpoint:@"ag"];
